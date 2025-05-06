@@ -1,0 +1,52 @@
+body {
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/four-ducklings-on-grass-royalty-free-image-1732103736.jpg?crop=0.8891xw:1xh;center,top&resize=1200:*");
+    background-size: cover;
+    background-position: top center;
+    font-family: 'Segoe UI', BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: yellow;
+    height: 100vh;
+    
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: 2px yellow ;
+    border-style:solid;
+    max-width: 80%;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+.container {
+  max-width: 300px;
+  margin: auto;       /* centers the container */
+  padding: rem;
+  box-sizing: border-box;
+  background-color: rgba(255, 228, 196, 0.5);
+}
